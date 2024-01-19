@@ -1,8 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <title>My Portfolio Site 🥰</title>
+<style>
+.circle {
+  border-radius: 50%;
+  border: 20px solid #F00A;
+  width: 600px;
+  height: 120%;
+  position: absolute;
+  left: -5em;
+  top: -2em;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.youtube {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  transform: scaleX(-1);
+  top: -300px;
+  left: 500px;
+}
+
+</style>
 </head>
 <body>hello i am nick this is my portfolio<br>look here's a video:<br>
-<video src="house.mp4" controls width="500"></video><br>make sure to like and subscribe for more content</body>
-</html>
+<div class="youtube">Second video:<br><video src="flip.mp4" controls="" width="500"></video><div class="circle"></div><div class="arrow"><img src="https://w7.pngwing.com/pngs/728/324/png-transparent-youtube-video-arrows-text-logo-internet.png"></div></div>
+First Video:<br><video src="house.mp4" controls="" width="500"></video><br>make sure to like and subscribe for more content
+</body><style type="text/css"></style></html>
